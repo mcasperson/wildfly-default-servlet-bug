@@ -1,0 +1,1 @@
+The example project for the bug documented at https://issues.jboss.org/browse/WFLY-5969
