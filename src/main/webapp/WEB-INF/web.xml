@@ -18,11 +18,18 @@
             <param-name>directory-listing</param-name>
             <param-value>true</param-value>
         </init-param>
+        <init-param>
+            <param-name>resolve-against-context-root</param-name>
+            <param-value>true</param-value>
+        </init-param>
     </servlet>
+
 
     <servlet-mapping>
         <servlet-name>default</servlet-name>
         <url-pattern>/static/*</url-pattern>
     </servlet-mapping>
+
+
 
 </web-app>
