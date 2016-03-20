@@ -1,4 +1,0 @@
-<jboss-web>
-    <!-- Add the context root to prevent access to urls like http://localhost:8080/wildfly-bug/static/static/data.xml -->
-    <context-root>wildfly-bug</context-root>
-</jboss-web>
